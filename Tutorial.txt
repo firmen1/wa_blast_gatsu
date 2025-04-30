@@ -1,0 +1,16 @@
+1. Pastikan Excel memiliki Nomor hp, jenis kelamin, dan nama. Agar sapaan pada pesan sesuai kepada penerima. Jika pesan tidak menyebutkan nama atau Bpk/Ibu, maka hanya diperlukan nomor hp saja
+2. pastikan kumpulan nama ada pada kolom bernama Nama dengan N kapital, Sedangkan No hp pada kolom NoHP dengan kapital yang sama juga. dan kolom jenis kelamin dengan pilihan berupa Lak-laki atau Perempuan dengan nama kolom Jenis kelamin
+3. Selalu perhatikan kapitalisasi huruf pada nama kolom untuk sesuai agar menghindari error
+4. Untuk mengedit pesan yang mau dikirim. bukalah dan editlah pada file pesan.txt
+5. jika ingin menyebutkan nama nasabah pada pesan. maka gunakanlah {Nama} agar secara otomatis berubah menjadi nama nasabah setiap pegiriman pesan
+6. sedankan untuk penyebutkan Bpk atau Ibu. gunakanlah {Gender}
+7. Untuk menjalankan program, bukalah folder yang berisi bot.py
+8. lalu kliklah file bot.pyw
+
+bonus jika ingin menjalankan di komputer lainnya
+1. jika belum punya python dan modul lainnya, jalankan file install_python.bat
+
+catatan = tidak berlaku pada os macos
+
+update:
+jika ingin menambahkan nama perusahaan, gunakan {Perusahaan} pada file notepad pesan.txt
