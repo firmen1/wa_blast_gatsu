@@ -1,6 +1,6 @@
 Selamat pagi
 Kepada Yth.
-Bapak/Ibu {Nama}, Nasabah Setia Bank Mandiri
+{Gender} {Nama} dari {Perusahaan}, Nasabah Setia Bank Mandiri
 
 Izin Bapak/Ibu, perkenalkan saya Arya Bramaputra dari Bank Mandiri Cabang Jkt Gatot Subroto.
 
