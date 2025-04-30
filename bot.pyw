@@ -25,7 +25,7 @@ for i in range(len(nomor)):
         nama_perusahaan = perusahaan[i]
     nama_nasabah = ''
     if 'Nama' in df.columns:
-        nama =nama[i]
+        nama_nasabah =nama[i]
     pesan = template_pesan.replace("{Nama}", nama_nasabah).replace("{Gender}", sapaan).replace("{Perusahaan}", nama_perusahaan)
     
     kit.sendwhatmsg_instantly(
