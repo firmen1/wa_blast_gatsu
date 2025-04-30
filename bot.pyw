@@ -8,7 +8,7 @@ with open('pesan.txt', 'r', encoding='utf-8') as file:
 df = pd.read_excel('data.xlsx', dtype={'NoHP': str})
 
 nomor = "+" + df['NoHP'].fillna("628123123")
-if 'Nama' in df.colomns:
+if 'Nama' in df.columns:
     nama = df['Nama']
 if 'Jenis Kelamin' in df.columns:
     gender = df['Jenis Kelamin']
@@ -24,7 +24,7 @@ for i in range(len(nomor)):
     if 'Perusahaan' in df.columns:
         nama_perusahaan = perusahaan[i]
     nama_nasabah = ''
-    if 'Nama' in df.colomns:
+    if 'Nama' in df.columns:
         nama =nama[i]
     pesan = template_pesan.replace("{Nama}", nama_nasabah).replace("{Gender}", sapaan).replace("{Perusahaan}", nama_perusahaan)
     
