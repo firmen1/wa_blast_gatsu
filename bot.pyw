@@ -10,8 +10,8 @@ df = pd.read_excel('data.xlsx', dtype={'NoHP': str})
 nomor = "+" + df['NoHP'].fillna("628123123")
 if 'Nama' in df.columns:
     nama = df['Nama']
-if 'Jenis Kelamin' in df.columns:
-    gender = df['Jenis Kelamin']
+if 'Gender' in df.columns:
+    gender = df['Gender']
 if 'Perusahaan' in df.columns:
     perusahaan = df['Perusahaan']
 
@@ -19,7 +19,7 @@ for idx in range(len(nomor)):
     print(f"Mengirim pesan ke-{idx + 1}...")  # Counter print
 
     sapaan = ''
-    if 'Jenis Kelamin' in df.columns:
+    if 'Gender' in df.columns:
         sapaan = "Bpk" if gender[idx] == "Laki-laki" else "Ibu" 
 
     nama_perusahaan = ''
